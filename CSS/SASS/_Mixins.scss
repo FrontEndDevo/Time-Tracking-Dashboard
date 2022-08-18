@@ -1,0 +1,46 @@
+// Mixin for animation & keyframes
+@mixin keyframes($name) {
+    @-webkit-keyframes #{$name}{
+        @content;
+    }
+    @-moz-keyframes #{$name} {
+        @content;
+    }
+    @-ms-keyframes #{$name} {
+        @content;
+    }
+    @keyframes #{$name} {
+        @content;
+    }
+}
+
+// Mixin for media queries
+@mixin responsive($breakpoint){
+    // Tablets & Mobiles
+    @if $breakpoint == tablet {
+        @media (max-width:991px) {
+            @content;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

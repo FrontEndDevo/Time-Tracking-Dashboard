@@ -1,0 +1,22 @@
+@use "SASS/Variables" as *;
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    background-color: $very_dark_blue;
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}

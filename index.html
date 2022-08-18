@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Normalize file -->
+    <link rel="stylesheet" href="CSS/Normalize.css" />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800;900&family=Open+Sans:wght@400;700&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Time Tracking Dashboard</title>
+    <link rel="icon" href="Images/favicon.png" />
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="person-box">
+        <div class="info">
+          <img src="Images/image-jeremy.png" alt="Jeremy Robson's photo" />
+          <div class="text">
+            <span>Report for</span>
+            <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <!-- Unordered list div -->
+        <div class="times">
+          <ul>
+            <li><a class="daily" href="#">Daily</a></li>
+            <li><a class="weekly" href="#">Weekly</a></li>
+            <li><a class="monthly" href="#">Monthly</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tasks-box">
+        <div class="box work">
+          <div class="data">
+            <div class="habit">
+              <h3>Work</h3>
+              <img src="Images/icon-ellipsis.svg" alt="Ellipsis icon" />
+            </div>
+            <div class="contain">
+              <div class="hours"><span class="first-hrs">32</span>hrs</div>
+              <div class="last">
+                <span
+                  >Last Week - <span class="first-sec-hrs">36</span>hrs</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box play">
+          <div class="data">
+            <div class="habit">
+              <h3>Play</h3>
+              <img src="Images/icon-ellipsis.svg" alt="Ellipsis icon" />
+            </div>
+            <div class="contain">
+              <div class="hours"><span class="second-hrs">10</span>hrs</div>
+              <div class="last">
+                <span
+                  >Last Week - <span class="second-sec-hrs">8</span>hrs</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box study">
+          <div class="data">
+            <div class="habit">
+              <h3>Study</h3>
+              <img src="Images/icon-ellipsis.svg" alt="Ellipsis icon" />
+            </div>
+            <div class="contain">
+              <div class="hours"><span class="third-hrs">4</span>hrs</div>
+              <div class="last">
+                <span>Last Week - <span class="third-sec-hrs">7</span>hrs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box exercise">
+          <div class="data">
+            <div class="habit">
+              <h3>Exercise</h3>
+              <img src="Images/icon-ellipsis.svg" alt="Ellipsis icon" />
+            </div>
+            <div class="contain">
+              <div class="hours"><span class="fourth-hrs">4</span>hrs</div>
+              <div class="last">
+                <span
+                  >Last Week - <span class="fourth-sec-hrs">5</span>hrs</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box social">
+          <div class="data">
+            <div class="habit">
+              <h3>Social</h3>
+              <img src="Images/icon-ellipsis.svg" alt="Ellipsis icon" />
+            </div>
+            <div class="contain">
+              <div class="hours"><span class="fifth-hrs">5</span>hrs</div>
+              <div class="last">
+                <span
+                  >Last Week - <span class="fifth-sec-hrs">10</span>hrs</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box selfcare">
+          <div class="data">
+            <div class="habit">
+              <h3>Self Care</h3>
+              <img src="Images/icon-ellipsis.svg" alt="Ellipsis icon" />
+            </div>
+            <div class="contain">
+              <div class="hours"><span class="sixth-hrs">2</span>hrs</div>
+              <div class="last">
+                <span>Last Week - <span class="sixth-sec-hrs">2</span>hrs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+  </body>
+</html>
