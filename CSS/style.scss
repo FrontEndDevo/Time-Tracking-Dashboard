@@ -87,8 +87,10 @@
           flex-direction: row;
         }
 
-        li a {
+        li button {
           color: $desaturated_blue;
+          background-color: transparent;
+          border: none;
           transition: $main_transition;
           &:hover {
             color: $pale_blue;
@@ -147,7 +149,7 @@
         .contain {
           display: flex;
           flex-direction: column;
-          
+
           .hours {
             font-size: 60px;
             margin-bottom: 10px;
